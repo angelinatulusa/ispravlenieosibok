@@ -14,7 +14,6 @@ else:
 #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
     print("Определяем, сколько в числе чётных и сколько нечётных цифр")
     print()
-
     c=b=a
     paaris=0 #dobavit peremennie paaris i paaritu
     paaritu=0
@@ -37,7 +36,6 @@ else:
             b=b%10
             paaritu+=1#nado pravolno podstavit pod else
 
-    
     print("Чётных цифр:", paaris)#posle teksta postavit , 
     print("Нечётных цифр:", paaritu)
     print()
