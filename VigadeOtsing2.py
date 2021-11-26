@@ -14,6 +14,7 @@ else:
 #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
     print("Определяем, сколько в числе чётных и сколько нечётных цифр")
     print()
+
     c=b=a
     paaris=0 #dobavit peremennie paaris i paaritu
     paaritu=0
@@ -23,6 +24,19 @@ else:
         else: 
             paaritu+=1
         b=b//10
+
+    #b=a
+    #c=a
+    c==b==a
+    paaris=0
+    paaritu=0
+    while b>0:#вместо ; надо использовать :
+        if b%2==0: #if надо правильно подставить под while и дописать еще одно =
+            paaris+=1#nado pravolno podstavit pod if
+        else: #else nado pravilno podstavit pod while
+            b=b%10
+            paaritu+=1#nado pravolno podstavit pod else
+
     
     print("Чётных цифр:", paaris)#posle teksta postavit , 
     print("Нечётных цифр:", paaritu)
